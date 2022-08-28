@@ -1,5 +1,10 @@
 <?php
 return [
+    'modules' => [
+        'gridview' =>  [
+             'class' => '\kartik\grid\Module'
+         ]
+        ],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
